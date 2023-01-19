@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-h1 {
-    color: blueviolet;
-    font-family: 'Roboto', sans-serif;
+p {
+    padding: 15px;
+}
+
+header {
+    background-color: rgba(255, 127, 80, 0.5);
+}
+
+main {
+    background-color: darkseagreen;
+}
+
+footer {
+    background-color: deeppink;
 }
