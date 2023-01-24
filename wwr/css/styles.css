@@ -1,0 +1,85 @@
+:root {
+	--primary-bg: #fcfbfb;
+	--secondary-bg: #596154;
+	--section-bg: #dac3a5;
+
+	--primary-font-color: #000000;
+	--secondary-font-color: #ffffff;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: var(--primary-font-color);
+}
+
+#content {
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: var(--primary-bg);
+	color: var(--primary-font-color);
+}
+
+header {
+	background-color: var(--secondary-bg);
+	color: var(--secondary-font-color);
+}
+
+#hero #hero-img {
+	width: 100%;
+	height: auto;
+}
+
+nav a {
+	text-align: center;
+	color: #fcfbfb;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+main section {
+	text-align: center;
+}
+
+main section.msg {
+	background-color: var(--secondary-bg);
+	color: var(--secondary-font-color);
+}
+
+.button-box {
+	text-align: center;
+}
+
+.icon {
+	width: 80px;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+	text-align: center;
+}
+
+#background {
+	height: 725px;
+	background-color: var(--section-bg);
+}
+
+footer {
+	background-color: var(--secondary-bg);
+	color: var(--secondary-font-color);
+}
+
+footer p {
+	font-size: 1.2em;
+}
+
+footer p a {
+	text-decoration: none;
+}
