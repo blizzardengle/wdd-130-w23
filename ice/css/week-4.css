@@ -18,6 +18,10 @@ h1 {
 	text-align: center;
 }
 
+h1:hover {
+	color: var(--primary-font-color);
+}
+
 img {
 	max-width: 100%;
 }
