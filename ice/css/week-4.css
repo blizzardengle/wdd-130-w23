@@ -38,3 +38,16 @@ ol {
 .huge-font {
 	font-size: 34px;
 }
+
+/*
+This is only one way of many to style
+the copyright text to look like the demo.
+*/
+#copyright {
+	text-align: center;
+}
+
+#copyright p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
