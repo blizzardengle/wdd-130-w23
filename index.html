@@ -4,25 +4,59 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>WDD 130 | Dashboard</title>
-		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<title>WDD 130 | Portfolio</title>
+		<link type="text/css" rel="stylesheet" href="css/normalize.css" />
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a href="wwr/index.html">White Water Rafting Website</a>
-				<a href="wwr/site-plan.html">White Water Rafting Site Plan</a>
-				<a href="positioning/positioning.html" target="_blank">Positioning Activity</a>
-				<a href="about-me/index.html">About Me</a>
-				<a href="ice/">ICE</a>
-				<a href="#">Personal Website</a>
-				<a href="#">Personal Site Plan</a>
-			</nav>
-		</header>
-		<main class="font-color">
-			<h1>Christopher Keers' Project Site</h1>
-			<p>This is the WDD 130 project website for Christopher Keers. You may use the links above to view the various projects.</p>
-		</main>
-		<footer>&copy; 2023. All rights reserved.</footer>
+		<div id="page">
+			<header>
+				<div id="logo">
+					<a href="./">
+						<img src="https://via.placeholder.com/150/09f.png/fff " />
+					</a>
+				</div>
+				<nav>
+					<!--
+						This mobile icon and mobile menu toggle effect is modified
+						from this: https://codepen.io/erikterwan/pen/EVzeRP
+					-->
+					<input type="checkbox" class="menu-toggle-icon" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<!-- End mobile menu specific HTML. -->
+					<ul>
+						<li>
+							<a href="wwr/index.html" target="_blank">Rafting Website</a>
+						</li>
+						<li>
+							<a href="wwr/site-plan.html" target="_blank">Rafting Site Plan</a>
+						</li>
+						<li>
+							<a href="positioning/positioning.html" target="_blank">Positioning Activity</a>
+						</li>
+						<li>
+							<a href="about-me/index.html">About Me</a>
+						</li>
+						<li>
+							<a href="ice/">ICE</a>
+						</li>
+						<li>
+							<a href="#">Personal Website</a>
+						</li>
+						<li>
+							<a href="#">Personal Site Plan</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<h1>Christopher Keers' Project Site</h1>
+				<p>This is the WDD 130 project website for <a href="about-me/index.html">Christopher Keers</a>. You may use the links above to view the various projects.</p>
+				<p>If you need help with any of these projects our would like to learn how to do something you see demonstrated on this site, please visit the GitHub repository. <strong>Note:</strong> Most work is done in the <code>dev</code> branch and not the <code>main</code> branch.</p>
+			</main>
+			<footer>&copy; 2023. All rights reserved.</footer>
+		</div>
 	</body>
 </html>
